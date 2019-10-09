@@ -8,12 +8,15 @@ The site is hosted with Github Pages.
 
 ## Development
 
-CSS: [This is a good entrypoint into the Bulma docs](https://bulma.io/documentation/)
+### Styles
+
+* CSS: [This is a good entrypoint into the Bulma docs](https://bulma.io/documentation/)
+* We are using the [Flatly Theme](https://jenil.github.io/bulmaswatch/flatly/) for Bulma
 
 ### Jekyll
 
-Github pages uses Jekyll to build the static site.
-Docker is an easy way to test it locally.
+* Github pages uses Jekyll to build the static site.
+* Docker is an easy way to test it locally.
 
 ```sh
 docker-compose build

@@ -1,13 +1,13 @@
-{% if page.url contains "withTabs" %} 
-  {% assign home_active = "is-active" %}
+{% if page.url contains "index" %}
+{% assign home_active = "is-active" %}
 {% elsif page.url contains "practice" %}
-  {% assign home_active = "is-active" %}
+{% assign home_active = "is-active" %}
 {% elsif page.url contains "resources" %}
-  {% assign resources_active = "is-active" %}
+{% assign resources_active = "is-active" %}
 {% elsif page.url contains "contact" %}
-  {% assign contact = "is-active" %}
+{% assign contact_active = "is-active" %}
 {% elsif page.url contains "faq" %}
-  {% assign faq = "is-active" %}
+{% assign faq_active = "is-active" %}
 {% endif %}
 
 <section class="hero is-primary">
@@ -15,10 +15,9 @@
     <nav class="main-nav navbar ">
       <div class="container">
         <div class="navbar-start">
-          <a class="navbar-item {{ home_active }}" href="/">Home</a>
+          <a class="navbar-item {{ home_active }}" href="/jekyll_index.html">Home</a>
           <a class="navbar-item {{ practice_active }}" href="/">Dr. Troxel’s Practice</a>
-          <a class="navbar-item {{ resources_active }}" href="/">Patient Resources</a>
-          <a class="navbar-item {{ contact_active }}" href="/">Contact</a>
+
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link {{ faq_active }}">
               FAQ
@@ -29,13 +28,16 @@
                 What is Endodontics?
               </a>
               <a class="navbar-item">
-                What treatments are available?
+                Why do I need an Endodontist?
               </a>
               <a class="navbar-item">
-                Why do I need an Endodontist?
+                What treatments are available?
               </a>
             </div>
           </div>
+
+          <a class="navbar-item {{ resources_active }}" href="/">Patient Resources</a>
+          <a class="navbar-item {{ contact_active }}" href="/jekyll_contact.html">Contact</a>
         </div>
       </div>
   </div>

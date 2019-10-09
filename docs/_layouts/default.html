@@ -24,7 +24,14 @@
 
 <body>
   {% include nav.html %}
-  {{ content }}
+  <div class="columns">
+    <div class="column">&nbsp;</div>
+    <div class="column is-two-thirds">
+      {{ content }}
+    </div>
+    <div class="column">&nbsp;</div>
+  </div>
+  {% include footer.html %}
 </body>
 
 </html>
