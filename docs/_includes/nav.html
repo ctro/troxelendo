@@ -1,0 +1,48 @@
+{% if page.url contains "index" %}
+{% assign home_active = "is-active" %}
+{% elsif page.url contains "practice" %}
+{% assign home_active = "is-active" %}
+{% elsif page.url contains "resources" %}
+{% assign resources_active = "is-active" %}
+{% elsif page.url contains "contact" %}
+{% assign contact_active = "is-active" %}
+{% elsif page.url contains "faq" %}
+{% assign faq_active = "is-active" %}
+{% endif %}
+
+<section class="hero is-primary">
+  <div class="hero-head">
+    <nav class="main-nav navbar ">
+      <div class="container">
+        <div class="navbar-start">
+          <a class="navbar-item {{ home_active }}" href="/jekyll_index.html">Home</a>
+          <a class="navbar-item {{ practice_active }}" href="/">Dr. Troxel’s Practice</a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link {{ faq_active }}">
+              FAQ
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                What is Endodontics?
+              </a>
+              <a class="navbar-item">
+                Why do I need an Endodontist?
+              </a>
+              <a class="navbar-item">
+                What treatments are available?
+              </a>
+            </div>
+          </div>
+
+          <a class="navbar-item {{ resources_active }}" href="/">Patient Resources</a>
+          <a class="navbar-item {{ contact_active }}" href="/jekyll_contact.html">Contact</a>
+        </div>
+      </div>
+  </div>
+  </nav>
+
+  </div>
+
+</section>
