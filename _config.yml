@@ -1,0 +1,11 @@
+# Config options: https://jekyllrb.com/docs/configuration/options/
+
+encoding: utf-8
+
+source: docs
+destination: docs/_site
+
+
+
+# Prevent github-pages from generating assets/css/style.css
+theme: null

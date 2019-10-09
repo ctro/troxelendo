@@ -8,10 +8,15 @@ The site is hosted with Github Pages.
 
 ## Development
 
-[This is a good entrypoint into the Bulma docs](https://bulma.io/documentation/)
+CSS: [This is a good entrypoint into the Bulma docs](https://bulma.io/documentation/)
+
+### Jekyll
+
+Github pages uses Jekyll to build the static site.
+Docker is an easy way to test it locally.
 
 ```sh
-npm install -g http-server
-http-server ./docs
-open http://127.0.0.1:8080/index.html
+docker-compose build
+docker-compose up
+open http://localhost:4000
 ```

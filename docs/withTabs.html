@@ -1,65 +1,8 @@
-<!doctype html>
+---
+layout: default
+title: Home
+---
 
-<html lang="en">
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149507111-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-149507111-1');
-  </script>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Troxel Endodontics</title>
-  <meta name="description" content="Troxel Endodontics">
-
-  <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/flatly/bulmaswatch.min.css">
-
-</head>
-
-<body>
-
-  <section class="hero is-primary">
-    <!-- Hero header: will stick at the top -->
-    <div class="hero-head">
-      <nav class="main-nav navbar ">
-        <div class="container">
-          <div class="navbar-start">
-            <a class="navbar-item " href="/">Home</a>
-            <a class="navbar-item " href="/">Dr. Troxel’s Practice</a>
-            <a class="navbar-item " href="/">Patient Resources</a>
-            <a class="navbar-item " href="/">Contact</a>
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  FAQ
-                </a>
-        
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                      What is Endodontics?
-                  </a>
-                  <a class="navbar-item">
-                      What treatments are available?
-                  </a>
-                  <a class="navbar-item">
-                      Why do I need an Endodontist?
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-    </div>
-
-  </section>
   <div class="columns">
     <div class="column">&nbsp;</div>
     <div class="column is-half">
@@ -69,6 +12,7 @@
           <img alt="Dr. Troxel" src="/img/DrTroxel.jpeg"/>
           <h2 class="is-size-3">Endodontist</h2>
           <h2 class="is-size-3">Steamboat Springs, Colorado</h2>
+          <p>{{ site.data.contact.location_line_1 }}</p>
         </div>
       </section>
     </div>
