@@ -6,6 +6,11 @@ This is just a static HTML/CSS site, files live in the `docs/` folder.
 
 The site is hosted with Github Pages.
 
+## Updates for Alex
+
+Go to the [docs/_data](./docs/_data) folder and edit data there.
+After you save it'll take a minute for the site to build.
+
 ## Development
 
 ### Styles

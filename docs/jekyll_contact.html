@@ -8,17 +8,17 @@ title: Contact
   <hr />
   <div class="content">
     <h2>Phone</h2>
-    <p><a href="tel:1-970-879-1959">970-879-1959</a></p>
+    <p><a href="tel:{{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a></p>
   </div>
   <div class="content">
     <h2>Email</h2>
-    <p><a href="mailto:info@pinegrovedentalarts.com">info@pinegrovedentalarts.com</a></p>
+    <p><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></p>
   </div>
   <div class="content">
     <h2>Address</h2>
-    <p><a href="https://g.page/PineGroveDentalArts">
-        1475 Pine Grove Road, Suite 107<br />
-        Steamboat Springs, CO<br />
-        80487</a></p>
+    <p><a href="{{ site.data.contact.location_url }}">
+        {{ site.data.contact.location_line_1 }}<br />
+        {{ site.data.contact.location_line_2 }}<br />
+        </a>
   </div>
 </section>
