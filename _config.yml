@@ -7,3 +7,6 @@ destination: docs/_site
 
 # Prevent github-pages from generating assets/css/style.css
 theme: null
+
+plugins:
+  - jekyll-seo-tag
