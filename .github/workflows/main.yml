@@ -18,5 +18,5 @@ jobs:
         run: docker-compose run web pwd && ls -alh . && ls -alh ./docs/
 
       - name: Run tests
-        run: docker-compose run web htmlproofer ./docs/_site
+        run: docker-compose run web htmlproofer /troxelendo/docs/_site
     

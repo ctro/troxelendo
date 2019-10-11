@@ -1,4 +1,6 @@
-{% if page.url contains "practice" %}
+{% if page.url contains "index" %}
+{% assign home_active = "is-active" %}
+{% elsif page.url contains "practice" %}
 {% assign practice_active = "is-active" %}
 {% elsif page.url contains "resources" %}
 {% assign resources_active = "is-active" %}
@@ -40,8 +42,9 @@
   <div class="hero-head">
     <nav class="main-nav navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/jekyll_index.html">
-          <span class="icon is-large"><img src="/img/tooth.svg" alt="Troxel Endo Logo" /></span>
+        <a class="navbar-item {{ home_active }}" href="/jekyll_index.html">
+         <img src="/img/tooth.svg" alt="Troxel Endo Logo" width="42px"/> 
+         Home
         </a>
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="TeNav">
           <span aria-hidden="true"></span>
