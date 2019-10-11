@@ -13,6 +13,10 @@ jobs:
 
       - name: docker-compose build
         run: docker-compose build --no-cache
+        
+        # An easy way to generate the site here.
+      - name: docker-compose up
+        run: docker-compose up 
 
       - name: whereami
         run: docker-compose run web pwd && ls -alh . && ls -alh ./docs/
