@@ -1,4 +1,4 @@
-name: CI
+name: CI Build and Test
 
 on: [push]
 
@@ -14,4 +14,6 @@ jobs:
       - name: docker-compose build
         run: docker-compose build --no-cache
 
+      - name: Run tests
+        run: docker-compose run web htmlproofer docs/_site
     
