@@ -19,4 +19,4 @@ bundle exec jekyll build
 # Test the generated site
 htmlproofer docs/_site
 
-echo 🦷 ls site: $(ls _site)
+echo 🦷 ls site: $(ls docs/_site)
