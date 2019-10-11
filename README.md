@@ -36,3 +36,7 @@ We use [HTMLProofer](https://github.com/gjtorikian/html-proofer) for tests.
 ### Run manually
 
 `docker-compose run web htmlproofer docs/_site`
+
+### CI
+
+A build / test cycle runs every time code changes on [Github Actions](https://github.com/ctro/troxelendo/actions)
