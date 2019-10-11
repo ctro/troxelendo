@@ -9,4 +9,5 @@ destination: docs/_site
 theme: null
 
 plugins:
-  - jekyll-seo-tag
+  #- jekyll-seo-tag
+  #- jekyll-sitemap
