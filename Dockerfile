@@ -12,4 +12,4 @@ WORKDIR /troxelendo
 
 COPY . .
 
-CMD ["bundle", "exec", "jekyll", "build"]
+RUN bundle exec jekyll build
