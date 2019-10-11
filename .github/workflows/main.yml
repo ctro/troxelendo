@@ -15,7 +15,7 @@ jobs:
         run: docker-compose build --no-cache
 
       - name: whereami
-        run: pwd && ls -alh . && ls -alh /troxelendo
+        run: docker-compose run web pwd && ls -alh . && ls -alh /troxelendo
 
       - name: Run tests
         run: docker-compose run web htmlproofer /troxelendo/docs/_site
