@@ -28,3 +28,11 @@ docker-compose build
 docker-compose up
 open http://localhost:4000
 ```
+
+## Tests
+
+We use [HTMLProofer](https://github.com/gjtorikian/html-proofer) for tests.
+
+### Run manually
+
+`docker-compose run web htmlproofer docs/_site`
