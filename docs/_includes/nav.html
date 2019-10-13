@@ -12,55 +12,50 @@
 
 <script type="text/javascript" src="/js/nav.js"></script>
 
-<section class="hero is-primary">
-  <div class="hero-head">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item {{ home_active }}" href="/jekyll_index.html"> 
-          <img src="/img/TreeTransparent.png" /> Home
-        </a>
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="TeNav">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <div id="TeNav" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item {{ practice_active }}" href="/practice.html">Practice</a>
+<section class="is-primary hero">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item {{ home_active }}" href="/jekyll_index.html">
+        <img src="/img/TreeTransparent.png" alt="Troxel Endo Logo" /> Home
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="TeNav">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="TeNav" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item {{ practice_active }}" href="/practice.html">Practice</a>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link {{ faq_active }}" href="/faq.html">
-              FAQ
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link {{ faq_active }}" href="/faq.html">
+            FAQ
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/faq.html#what">
+              What is Endodontics?
             </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="/faq.html#what">
-                What is Endodontics?
-              </a>
-              <a class="navbar-item" href="/faq.html#why">
-                Why do I need an Endodontist?
-              </a>
-              <a class="navbar-item" href="/faq.html#treatments">
-                What treatments are available?
-              </a>
-              <a class="navbar-item" href="/faq.html#extraction">
-                Is extraction a better option?
-              </a>
-              <a class="navbar-item" href="/faq.html#pain">
-                Do Root Canals hurt?
-              </a>
-            </div>
+            <a class="navbar-item" href="/faq.html#why">
+              Why do I need an Endodontist?
+            </a>
+            <a class="navbar-item" href="/faq.html#treatments">
+              What treatments are available?
+            </a>
+            <a class="navbar-item" href="/faq.html#extraction">
+              Is extraction a better option?
+            </a>
+            <a class="navbar-item" href="/faq.html#pain">
+              Do Root Canals hurt?
+            </a>
           </div>
-
-          <a class="navbar-item {{ resources_active }}" href="/resources.html">Patient Resources</a>
-          <a class="navbar-item {{ contact_active }}" href="/contact.html">Contact</a>
         </div>
+
+        <a class="navbar-item {{ resources_active }}" href="/resources.html">Patient Resources</a>
+        <a class="navbar-item {{ contact_active }}" href="/contact.html">Contact</a>
       </div>
+    </div>
 
-  </div>
   </nav>
-
-  </div>
-
 </section>
