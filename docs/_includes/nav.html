@@ -1,5 +1,7 @@
 {% if page.url contains "index" %}
 {% assign home_active = "is-active" %}
+{% elsif page.url == "/" %}
+{% assign home_active = "is-active" %}
 {% elsif page.url contains "practice" %}
 {% assign practice_active = "is-active" %}
 {% elsif page.url contains "resources" %}
@@ -11,11 +13,10 @@
 {% endif %}
 
 <script type="text/javascript" src="/js/nav.js"></script>
-
 <section class="is-primary hero">
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item {{ home_active }}" href="/jekyll_index.html">
+      <a class="navbar-item {{ home_active }}" href="/">
         <img src="/img/TreeTransparent.png" alt="Troxel Endo Logo" /> Home
       </a>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="TeNav">
