@@ -1,0 +1,48 @@
+---
+layout: default
+title: Meet Dr. Troxel
+---
+
+<section class="section">
+  <h1 class="title">Meet Dr. Troxel</h1>
+  <img src="/img/FamilyPortrait.jpeg" style="width:100%;" alt="Dr. Troxel"/>
+  <hr />
+  <div class="content">
+    <h2>Background</h2>
+    <p>
+      Dr. Troxel was raised in northeastern Indiana by a crop farmer and a tap dance teacher.
+      Although his education and interests have taken him far from home, he does his best to retain the midwestern
+      decency and humility with which he grew up.
+      Endodontics has been a rewarding career that compels honesty and trust between patient and provider—these
+      relationships are what motivate Dr. Troxel daily.
+      Dr. Troxel is married to his beautiful wife Joy, who is also a practicing dentist in Steamboat Springs.
+      Outside of the office, Dr. Troxel enjoys cooking, music production, skiing, paddling, fly-fishing, and spoiling
+      his dog Olive.
+    </p>
+  </div>
+  
+  <div class="content">
+    <h2>Education</h2>
+    <p>
+      Dr. Troxel completed his undergraduate studies at DePauw University, graduating Summa Cum Laude.  
+      There, he was captain of the varsity swim team his Junior and Senior years.
+      He continued his dental education at Indiana University School of Dentistry and was awarded his Doctor of Dental
+      Surgery Degree as class valedictorian.
+      Following dental school, Dr. Troxel completed a dental General Practice Residency at the local Veterans Affairs hospital, 
+      which focused on comprehensive care, surgery, and anesthesia.
+      He finished his education at Indiana University Graduate Endodontics, where he earned his Master’s of Science in
+      Dentistry as well as his Certificate in Endodontics.
+    </p>
+  </div>
+
+  <div class="content">
+    <h2>Research</h2>
+    <p>
+      During his graduate studies, Dr. Troxel completed his master's research on the most utting edge field of 
+      endodontics--Regenerative Endodontics.  This field focuses on regenerating your native dental tissues via 
+      stem cells found in immature teeth.  Dr. Troxel's thesis on this subject, The antibacterical effect of 
+      new intracanal medicaments against established multispecies biofilm, was published in the American Association 
+      of Endodontists journal, the Journal of Endodontics.
+    </p>
+  </div>
+</section>
