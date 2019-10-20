@@ -1,7 +1,11 @@
 <footer class="footer">
   <div class="content has-text-centered">
+    <p><a href="tel:{{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a></p>
     <p>
-      &copy;{{ 'now' | date: "%Y" }} Alex C. Troxel
+      <a href="{{ site.data.contact.location_map_url }}">
+        {{ site.data.contact.location_short }}
+      </a>
     </p>
+    <p>&copy;{{ 'now' | date: "%Y" }} Alex C. Troxel</p>
   </div>
 </footer>
