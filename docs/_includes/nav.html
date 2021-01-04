@@ -10,8 +10,8 @@
 {% assign resources_active = "is-active" %}
 {% elsif page.url contains "contact" %}
 {% assign contact_active = "is-active" %}
-{% elsif page.url contains "faq" %}
-{% assign faq_active = "is-active" %}
+{% elsif page.url contains "services" %}
+{% assign services_active = "is-active" %}
 {% endif %}
 
 <script type="text/javascript" src="/js/nav.js"></script>
@@ -33,24 +33,24 @@
         <a class="navbar-item {{ meet_active }}" href="/meet.html">Meet Dr. Troxel</a>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link {{ faq_active }}" href="/faq.html">
-            FAQ
+          <a class="navbar-link {{ services_active }}" href="/services.html">
+            Services
           </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="/faq.html#what">
+            <a class="navbar-item" href="/services.html#what">
               What is Endodontics?
             </a>
-            <a class="navbar-item" href="/faq.html#why">
+            <a class="navbar-item" href="/services.html#why">
               Why do I need an Endodontist?
             </a>
-            <a class="navbar-item" href="/faq.html#treatments">
+            <a class="navbar-item" href="/services.html#treatments">
               What treatments are available?
             </a>
-            <a class="navbar-item" href="/faq.html#extraction">
+            <a class="navbar-item" href="/services.html#extraction">
               Is extraction a better option?
             </a>
-            <a class="navbar-item" href="/faq.html#pain">
+            <a class="navbar-item" href="/services.html#pain">
               Do Root Canals hurt?
             </a>
           </div>
